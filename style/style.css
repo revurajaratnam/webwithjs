@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:70px;
+    gap:50px;
     padding: 10px;
     margin: 10px;
     background-color: brown;
@@ -31,5 +31,12 @@
  #home{
     text-decoration: none;
     color: white;
+ }
+ #login{
+   text-decoration: none;
+   color: white;
+   background-color: rgb(196, 71, 71);
+   padding: 10px;
+   border-radius: 10px;
  }
 
