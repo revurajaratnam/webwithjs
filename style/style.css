@@ -11,18 +11,23 @@
     height: 1000px;
     
  }
- #nav,.list{
+ #nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap:50px;
     padding: 10px;
     margin: 10px;
-    background-color: brown;
+    background-color: rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     flex-grow: 1;
     flex-wrap: wrap;
     z-index: -1;
+ }
+ .list{
+   display: flex;
+   gap:50px;
+
  }
  .list{
    list-style: none;
