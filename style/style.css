@@ -43,5 +43,62 @@
    background-color: rgb(196, 71, 71);
    padding: 10px;
    border-radius: 10px;
+   border: none;
+ }
+ .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   box-shadow:5px 5px 10px 5px rgba(0, 0, 0, 0.25);
+   width: 300px;
+   height: 300px;
+   margin:50px;
+   padding: 100px;
+   border-radius: 20px;
+   color: skyblue;
+   
+ }
+ .input-box{
+   position: relative;
+   width: 250px;
+ }
+ input{
+   width:100%;
+   padding:12px;
+   background-color: transparent;
+   border: 2px solid rgb(71, 147, 253);
+   outline: none;
+   color: skyblue;
+   border-radius: 8px;
+ }
+ label{
+   position: absolute;
+   left:12px;
+   top:10px;
+   color:skyblue;
+   pointer-events: none;
+   transition: 0.3s;
+   /* border: white solid 1px; */
+   padding: 0 5px;
+   background-color: white;
+  
+ }
+ input:focus+label,
+ input:valid+label{
+   top:-8px;
+   font-size: 12px;
+ }
+ #btn{
+   background-color: skyblue;
+   color: white;
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+ }
+
+ #btn:hover{
+   background-color: rgb(73, 166, 202);
+   cursor: pointer;
  }
 
