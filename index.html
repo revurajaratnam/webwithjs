@@ -16,16 +16,30 @@
        
        
     <ul class="list">
-        <a href="#" id="home" ><li>Home</li></a>
+        <a href="index.html" id="home" ><li>Home</li></a>
         <a href="#" id="home"><li>Feature</li></a>
         <a href="#" id="home"><li>About</li></a>
         <a href="#" id="home"><li>Contacts</li></a>
         <div>
-            <a href="./loginbutton.html" id="login">Sign up</a>
+            <!-- <a href="./loginbutton.html" id="login" onclick="loadPage()">Sign up</a> -->
+             <button id="login" onclick="loadPage()">Sign Up</button>
         <a href="#" id="login">Sign in</a>
         </div>
     </ul>
    </div>
    </div>
+   <div id="content">
+  
+</div>
+
+<script>
+    function loadPage() {
+        fetch("loginbutton.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("content").innerHTML = data;
+            });
+    }
+</script>
 </body>
 </html>
