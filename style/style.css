@@ -106,5 +106,8 @@
    background-color: rgb(73, 166, 202);
    cursor: pointer;
    background-color: orange;
+   border:1px solid white;
+    color: white;
+    transition: 0.3s;
  }
 
