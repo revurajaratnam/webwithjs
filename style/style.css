@@ -86,7 +86,7 @@
    /* border: white solid 1px; */
    padding: 0 5px;
    background-color: black;
-   margin: 10px;
+   /* margin: 10px; */
   
  }
  input:focus+label,
