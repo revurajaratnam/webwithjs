@@ -119,4 +119,9 @@
   align-items: center;
   margin-top: 20px;
  }
+ .container h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+ }
 
