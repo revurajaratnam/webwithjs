@@ -113,4 +113,10 @@
  #login:hover{
   background-color: rgb(194, 5, 5);
  }
+ .image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ }
 
