@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 1000px;
+  
     
  }
  #nav{
@@ -26,6 +26,7 @@
     flex-grow: 1;
     flex-wrap: wrap;
     z-index: -1;
+
  }
  .list{
    display: flex;
