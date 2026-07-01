@@ -59,7 +59,7 @@
 <br>
 <div>
     <h1>Show now </h1>
-    <button style="color: blue;">Show</button>
+    <button style="color: blue ; padding: 10px; " onclick="showContent()">Show</button>
 </div>
 
 <script>
@@ -70,6 +70,11 @@
                 document.getElementById("content").innerHTML = data;
             });
     }
+
+    function showContent() {
+        document.getElementById("content").style.display = "block";
+        alert("Content is now visible!");
+    }   
 </script>
 </body>
 </html>
